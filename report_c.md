@@ -169,11 +169,11 @@ data.
 
 | Functions | Definition |
 |:---:|:---:|
-| Normal Distribution | <img src="https://latex.codecogs.com/gif.latex?\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}" width="65%" />|
-| Lognormal Distribution | <img src="https://latex.codecogs.com/gif.latex?\frac{1}{x\sqrt{2\pi\sigma^2}}e^{-\frac{1}{2}(\frac{lnx-\mu}{\sigma})^2}, x>0" width="65%" /> |
-| Rectangular Distribution | <img src="https://latex.codecogs.com/gif.latex?\frac{1}{b-a}, \ for \ a \leq x \leq b" width="65%" /> |
-| Gamma Distribution | <img src="https://latex.codecogs.com/gif.latex?x^{\alpha-1}\frac{e^{-\frac{x}{\theta}}}{\theta^\alpha\Gamma(\alpha)}, \ for \ x>0 \ and \ \alpha,\theta>0" width="65%" /> |
-| Exponential Distribution| <img src="https://latex.codecogs.com/gif.latex?\lambda e^{-\lambda x}, x\geq 0" width="65%" /> |
+| Normal Distribution | <img src="https://latex.codecogs.com/gif.latex?\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}" />|
+| Lognormal Distribution | <img src="https://latex.codecogs.com/gif.latex?\frac{1}{x\sqrt{2\pi\sigma^2}}e^{-\frac{1}{2}(\frac{lnx-\mu}{\sigma})^2},&space;x>0" title="\frac{1}{x\sqrt{2\pi\sigma^2}}e^{-\frac{1}{2}(\frac{lnx-\mu}{\sigma})^2}, x>0" /> |
+| Rectangular Distribution | <img src="https://latex.codecogs.com/gif.latex?\frac{1}{b-a},&space;\&space;for&space;\&space;a&space;\leq&space;x&space;\leq&space;b" title="\frac{1}{b-a}, \ for \ a \leq x \leq b"  /> |
+| Gamma Distribution | <img src="https://latex.codecogs.com/gif.latex?x^{\alpha-1}\frac{e^{-\frac{x}{\theta}}}{\theta^\alpha\Gamma(\alpha)},&space;\&space;for&space;\&space;x>0&space;\&space;and&space;\&space;\alpha,\theta>0" title="x^{\alpha-1}\frac{e^{-\frac{x}{\theta}}}{\theta^\alpha\Gamma(\alpha)}, \ for \ x>0 \ and \ \alpha,\theta>0" /> |
+| Exponential Distribution| <img src="https://latex.codecogs.com/gif.latex?\lambda&space;e^{-\lambda&space;x},&space;x\geq&space;0" title="\lambda e^{-\lambda x}, x\geq 0" /> |
 
 <sub>**Table 2** Various popular probability distribution with their definition
 
