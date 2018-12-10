@@ -309,34 +309,37 @@ significant trend.
 <sub>**Figure 11** Time series plot for maximum seasonal rainfall with regression line for each season.</sub>
 
 #### Probability Distribution:
-From the histogram plots fitted with their respective best-fit probability distribution, it can be clearly seen that heavy rainfall(1500mm - 2000mm) has higher frequencies of occurence. Annual   trends   mostly   follow   normal   distribution   while   monthly   trends   best   fits   to
-exponential distribution.
+From the histogram plots fitted with their respective best-fit probability distribution, it can be clearly seen that heavy rainfall(1500mm - 2000mm) has higher frequencies of occurence. Annual trends mostly follow normal distribution while monthly trends best fits to exponential distribution.
 
 <img src="https://github.com/impopular-guy/rainfall/blob/master/images/11dist1.svg" />
+
 <sub>**Figure 12** Histogram plot for total annual rainfall fitted with normal distribution.</sub>
 
 <img src="https://github.com/impopular-guy/rainfall/blob/master/images/12dist2.svg" />
+
 <sub>**Figure 13** Histogram plot for total rainy days in a year fitted with normal distribution.</sub>
 
 <img src="https://github.com/impopular-guy/rainfall/blob/master/images/13dist3.svg" />
+
 <sub>**Figure 14** Histogram plot for maximum rainfall for a year fitted with gamma distribution.</sub>
 
 <img src="https://github.com/impopular-guy/rainfall/blob/master/images/14dist5.svg" />
+
 <sub>**Figure 15** Histogram plot for no.of rainy days in a month fitted with exponential distribution.</sub>
 
 <img src="https://github.com/impopular-guy/rainfall/blob/master/images/15dist6.svg" />
-<sub>**Figure 16** Histogram plot for total monthly rainfall fitted with exponential distribution.<sub>
+
+<sub>**Figure 16** Histogram plot for total monthly rainfall fitted with exponential distribution.</sub>
 
 <img src="https://github.com/impopular-guy/rainfall/blob/master/images/16dist4.svg" />
+
 <sub>**Figure 17** Histogram plot for maximum monthly rainfall fitted with exponential distribution.</sub>
 
 ---
-### CONCLUSIONS
 
-The rainfall characteristics especially variability and trend are necessary for the proper
-planning and management of water resources. This report deals with the study of long term
-rainfall trends for Guwahati station for the period 1988-2017. From the results of the time
-series analysis it can broadly concluded that:
+### CONCLUSIONS
+
+The rainfall characteristics especially variability and trend are necessary for the proper planning and management of water resources. This report deals with the study of long term rainfall trends for Guwahati station for the period 1988-2017. From the results of the time series analysis it can broadly concluded that:
 
 - There is a significant downward trend in the total annual rainfall and in the number of rainy days in a year.
 - A rising trend was observed in time series analysis for the maximum rainfall for a year.
@@ -347,11 +350,9 @@ series analysis it can broadly concluded that:
 - Time   series   analysis   for   monthly   rainfall   for   two   months  April   and   July   were obserced. Significant falling trend was for the month of July while a rising trend was observed for that in April.
 - Probability distribution analysis showed that annual rainfall mostly follows normal distribution while monthly rainfall data follows exponential distribution.
 
-### Reference
+### Reference
 - http://python-graph-gallery.com for different types of visualisation examples.
 - Stackoverflow for all those small queries.
 - http://www.researchgate.net for those example reports.
 - Google Search for its never-ending support.
 - Wikipedia for definitions.
-
-
