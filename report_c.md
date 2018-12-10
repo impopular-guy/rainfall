@@ -169,11 +169,11 @@ data.
 
 | Functions | Definition |
 |:---:|:---:|
-| Normal Distribution | $\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}$ |
-| Lognormal Distribution | $\frac{1}{x\sqrt{2\pi\sigma^2}}e^{-\frac{1}{2}(\frac{lnx-\mu}{\sigma})^2}, x>0$ |
-| Rectangular Distribution | $\frac{1}{b-a}, \ for \ a \leq x \leq b$ |
-| Gamma Distribution | $x^{\alpha-1}\frac{e^{-\frac{x}{\theta}}}{\theta^\alpha\Gamma(\alpha)}, \ for \ x>0 \ and \ \alpha,\theta>0$ |
-| Exponential Distribution| $\lambda e^{-\lambda x}, x\geq 0$ |
+| Normal Distribution | <img src="https://latex.codecogs.com/gif.latex?\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}" width="65%" />|
+| Lognormal Distribution | <img src="https://latex.codecogs.com/gif.latex?\frac{1}{x\sqrt{2\pi\sigma^2}}e^{-\frac{1}{2}(\frac{lnx-\mu}{\sigma})^2}, x>0" width="65%" /> |
+| Rectangular Distribution | <img src="https://latex.codecogs.com/gif.latex?\frac{1}{b-a}, \ for \ a \leq x \leq b" width="65%" /> |
+| Gamma Distribution | <img src="https://latex.codecogs.com/gif.latex?x^{\alpha-1}\frac{e^{-\frac{x}{\theta}}}{\theta^\alpha\Gamma(\alpha)}, \ for \ x>0 \ and \ \alpha,\theta>0" width="65%" /> |
+| Exponential Distribution| <img src="https://latex.codecogs.com/gif.latex?\lambda e^{-\lambda x}, x\geq 0" width="65%" /> |
 
 <sub>**Table 2** Various popular probability distribution with their definition
 
@@ -243,15 +243,15 @@ From the time series plots for total annual rainfall we observe that there is a 
 *downward* trend in total annual rainfall and total no. of rainy days in a year, while maximum
 rainfall for a year shows *upward* trend.
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/01Annual_Rainfall_vs_Year.svg?sanitize=true" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/01Annual_Rainfall_vs_Year.svg?sanitize=true" width="65%" />
 
 <sub>**Figure 2** Time series plot for annual rainfall with regression line. </sub>
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/02No_of_Rainy_Days_vs_Year.svg" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/02No_of_Rainy_Days_vs_Year.svg" width="65%" />
 
 <sub>**Figure 3** Time series plot for no. of rainy days in a year with regression line. </sub>
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/03Maximum_Rainfall_vs_Year.svg" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/03Maximum_Rainfall_vs_Year.svg" width="65%" />
 
 <sub>**Figure 4** Time series plot for Maximum annual rainfall with regression line. </sub>
 
@@ -261,7 +261,7 @@ monthly rainfall, we can clearly see that months from April to September has hig
 the rest of the year. This argument is aided by the fact that , it is the same part of the year
 where monsoon usually occurs.
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/04boxplot.svg" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/04boxplot.svg" width="50%" />
 
 <sub>**Figure 5** Boxplot for total monthly rainfall where the horizontal line denotes average monthly rainfall. </sub>
 
@@ -269,12 +269,12 @@ where monsoon usually occurs.
 showed significant trends in their analysis. The month of July seems to receiving less
 rainfall over the years whereas April is receiving more rainfall over the years.
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/05July.svg" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/05July.svg" width="65%" />
 
 <sub>**Figure 6** Time series plot for monthly rainfall for July with 
 regression line. </sub>
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/06Apr.svg" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/06Apr.svg" width="65%" />
 
 <sub>**Figure 7** Time series plot for monthly rainfall for April with 
 regression line.</sub>
@@ -282,7 +282,7 @@ regression line.</sub>
  A countplot for seasonal rainfall represents how number of rainy days is distributed among the four
 seasons.
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/07countplot.svg" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/07countplot.svg" width="65%" />
 
 <sub>**Figure 8** Countplot for total no. of rainy days in each season for various years.</sub>
 
@@ -296,42 +296,42 @@ Time series analysis on seasonal raindfall tells us that their is downward trend
 seasonal rainfall and no. of rainy days while maximum seasonal rainfall doesn’t show any
 significant trend.
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/08seasonal_trend01.png" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/08seasonal_trend01.png" width="65%" />
 
 <sub>**Figure 9** Time series plot for total seasonal rainfall with regression line for each season.</sub>
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/09seasonal_trend02.png" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/09seasonal_trend02.png" width="65%" />
 
 <sub>**Figure 10** Time series plot for total no. of rainy days with regression line for each season.</sub>
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/10seasonal_trend03.png" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/10seasonal_trend03.png" width="65%" />
 
 <sub>**Figure 11** Time series plot for maximum seasonal rainfall with regression line for each season.</sub>
 
 #### Probability Distribution:
 From the histogram plots fitted with their respective best-fit probability distribution, it can be clearly seen that heavy rainfall(1500mm - 2000mm) has higher frequencies of occurence. Annual trends mostly follow normal distribution while monthly trends best fits to exponential distribution.
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/11dist1.svg" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/11dist1.svg" width="50%" />
 
 <sub>**Figure 12** Histogram plot for total annual rainfall fitted with normal distribution.</sub>
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/12dist2.svg" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/12dist2.svg" width="50%" />
 
 <sub>**Figure 13** Histogram plot for total rainy days in a year fitted with normal distribution.</sub>
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/13dist3.svg" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/13dist3.svg" width="50%" />
 
 <sub>**Figure 14** Histogram plot for maximum rainfall for a year fitted with gamma distribution.</sub>
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/14dist5.svg" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/14dist5.svg" width="50%" />
 
 <sub>**Figure 15** Histogram plot for no.of rainy days in a month fitted with exponential distribution.</sub>
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/15dist6.svg" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/15dist6.svg" width="50%" />
 
 <sub>**Figure 16** Histogram plot for total monthly rainfall fitted with exponential distribution.</sub>
 
-<img src="https://github.com/impopular-guy/rainfall/blob/master/images/16dist4.svg" />
+<img src="https://github.com/impopular-guy/rainfall/blob/master/images/16dist4.svg" width="50%" />
 
 <sub>**Figure 17** Histogram plot for maximum monthly rainfall fitted with exponential distribution.</sub>
 
