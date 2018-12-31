@@ -15,3 +15,5 @@ National Institute of Technology, Silchar
 * Understanding rainfall patterns for finding solutions for environmental issues and resource management.
 * Data consists of daily rainfall data for Guwahati station for a period of 1988-2017.
 * Significant falling trend was observed in annual and seasonal rainfall analysis.
+
+[Report](https://github.com/impopular-guy/rainfall/blob/master/report_c.md)
